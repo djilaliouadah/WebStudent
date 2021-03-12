@@ -1,0 +1,120 @@
+@media screen and (max-width: 770px) {
+	.choix_afficher { 
+		display: none;
+	}
+
+
+    .champ_texteG{
+        display:none;
+    }
+    .champ_texteP{
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .champ_texteG{
+        margin-top: 200px;
+    }
+    .champ_texteP{
+        display: none;
+    }
+}
+
+@font-face {
+    font-family: "Cooper Black";
+    src: url("./assets/font/Cooper-Black-Regular.ttf") format("ttf"),
+   }
+
+fieldset{
+    border: solid black;
+    margin-bottom: 10px;
+}
+
+.champ_texteG, .champ_texteP{
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background-color: rgba(255, 255, 255, 0.377);
+	border: 3px black dashed;
+	border-radius: 10px;
+	color: red;
+	font-weight: bold;
+}
+
+.maincontainer{
+    background-color: teal;
+}
+
+
+.slideshow ul {
+    /* 4 images donc 4 x 100% */
+    width: 400%;
+    height: 200px;
+    padding-left:3px; margin:0;
+    list-style: none;
+    }
+
+.slideshow {
+    width: 350px;
+    height: 105px;
+    overflow:hidden;
+    border: 3px solid #000;
+     }
+
+.slideshow li {
+    float: left;
+}
+
+#en-tete{
+    height: 105px;
+}
+
+#en-tete h1{
+    font-family: "Cooper Black";
+}
+
+#en-tete h1 + p{
+    font-family:arial black;
+}
+
+#organise p{
+    z-index: 1;
+    position: relative;
+    font-weight: bolder;
+    top:-22px;
+    left:2px;
+    color: rgb(182, 0, 142);
+    
+}
+
+.navbar p{
+    color:rgb(186, 215, 216);
+}
+
+input, select {
+    background-color: #77cebb;
+    border: dashed green;
+}
+
+.ui-autocomplete {
+    position: absolute;
+    z-index: 1000;
+    cursor: default;
+    padding: 0;
+    margin-top: 2px;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+	border-radius: 5px;
+}
+.ui-autocomplete > li {
+  padding: 3px 20px;
+}
+.ui-autocomplete > li.ui-state-focus {
+  background-color: #DDD;
+}
+.ui-helper-hidden-accessible {
+  display: none;
+}
