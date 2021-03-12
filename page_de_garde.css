@@ -1,0 +1,289 @@
+
+
+
+aside
+{
+	color: #FFAF50;
+	font-size: 100px;
+	margin-left: 100px;
+	margin-top: 20px;
+
+}
+
+li
+{
+	margin-top: 10px;
+	font-size: 1rem;
+    
+}
+
+
+li a
+{
+	color: white;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: 20px;
+}
+
+ .main-head
+{
+	background: #808080;
+	color: white;
+
+}
+
+.Acc
+{
+display: flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	background-color: white;
+   
+}
+
+
+nav ul
+{
+	display: flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+}
+
+
+.etu
+ {
+
+ 	margin-top: -150px ;
+ 	margin-left: 1350px;
+
+ }
+ button
+ {
+ 	background-color: #F4C161;
+ }
+
+p
+{
+    
+    width: 350px;
+    margin-left: 120px;
+    text-align: justify;
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+
+}
+ .pil
+ {
+ 	margin-top: 20px;
+ 	margin-left: 1250px;
+ }
+
+ .del
+ {
+ 	margin-left: 1150px;
+ 	margin-top: 20px;
+ }
+
+ .adm
+ {
+ 	margin-left: 1050px;
+ 	margin-top: 20px;
+ }
+
+ #identifiant
+ {
+
+ 	margin-left: 7px;
+
+ }
+
+ #rb
+ {
+ 	background-color: #F9F5F5;
+ 	background-size: cover;
+ }
+
+.link1
+{
+	margin-left: 150px;
+   
+	margin-top: 150px;
+color: #FFBF5A;
+	
+}
+
+
+
+
+.logo1
+{
+	margin-top: 100px;
+    margin-left: -160px;
+	display: flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	color: #FEA412;
+}
+
+.Baba1
+{
+	margin-left: -20px;
+	color: black;
+}
+
+.Baba2
+{
+	margin-left: -40px;
+	color: black;
+}
+
+.Baba3
+{
+	margin-left: -35px;
+	color: black;
+}
+
+.Baba4
+{
+	margin-left: -20px;
+	color: black;
+}
+@media all and (max-width: 1024px)
+{
+
+.text-uppercase
+{
+	font-size: 10px;
+}
+
+.Baba1
+{
+	margin-left: -45px;
+}
+.Baba2
+{
+	margin-left: -50px;
+}
+.Baba3
+{
+margin-left: -42px;
+}
+.Baba4
+{
+	margin-left: -17px;
+}
+.text
+{
+	font-size: 10px;
+	margin-left: 7px;
+}
+p
+{
+    
+    width: 250px;
+    margin-left: 6px;
+    text-align: justify;
+    margin-top: 50px;
+    color: black;
+    font-weight: bold;
+    font-size: 10px;
+
+}
+ .logo1
+{
+	font-size: -0.5px;
+	margin-top: 100px;
+	display: flex;
+	flex: 1 1 40rem;
+	justify-content: space-around;
+	align-items: center;
+	list-style: none;
+	color: #FEA412;
+}
+	.etu
+	{
+
+		margin-left: 5px;
+		font-size: 10px;
+		 width: auto;
+        text-align: left;
+        padding-left: 4px;
+        margin-top: 25px;
+	}
+
+	.pil
+	{
+		margin-left: 200px;
+		font-size: 10px;
+		 width: auto;
+        text-align: left;
+        padding-left: 4px;
+        margin-top: -20px;
+	}
+
+    .del
+    {
+    	margin-left: 200px;
+		font-size: 10px;
+		 width: auto;
+        text-align: left;
+        padding-left: 4px;
+        margin-top: 10px;
+    }
+
+   .adm
+   {
+   	   margin-left: 5px;
+		font-size: 10px;
+		 width: auto;
+        text-align: left;
+        padding-left: 4px;
+        margin-top: -15px;
+   }
+	aside
+	{
+		margin-top: 20px;
+		margin-left: 5px;
+		font-size: 50px;
+              width: auto;
+        text-align: left;
+        padding-left: 4px;
+        
+	}
+
+    nav
+    {
+        width: auto;
+        text-align: left;
+    }
+    
+    nav ul
+    {
+        flex-direction: column;
+    }
+
+    nav li
+    {
+        padding-left: 4px;
+    }
+    
+    nav a
+    {
+        font-size: 1.1em;
+    }
+    
+    nav a:hover
+    {
+        border-bottom: 0;
+    }
+}
+
+
