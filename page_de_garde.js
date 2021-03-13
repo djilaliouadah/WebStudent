@@ -1,6 +1,19 @@
-alert("bonjour");
-var acces;
+$(".etutxt").on("click", function(event) {
+    var toto =
+        document.location.href = "projet.php?acces=etu";
+})
 
-$("etutxt").on("click",function(event){
-    document.location.href="projet.php";
+$(".piltxt").on("click", function(event) {
+    var toto =
+        document.location.href = "projet.php?acces=pil";
+})
+
+$(".deltxt").on("click", function(event) {
+    var toto =
+        document.location.href = "projet.php?acces=del";
+})
+
+$(".admtxt").on("click", function(event) {
+    var toto =
+        document.location.href = "projet.php?acces=adm";
 })

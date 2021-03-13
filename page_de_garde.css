@@ -1,289 +1,133 @@
-
-
-
-aside
-{
-	color: #FFAF50;
-	font-size: 100px;
-	margin-left: 100px;
-	margin-top: 20px;
-
+h1 {
+    color: #FFAF50;
+    font-size: 100px;
+    margin-left: 100px;
+    margin-top: 20px;
 }
 
-li
-{
-	margin-top: 10px;
-	font-size: 1rem;
-    
+.Acc {
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+    font-size: 1.5em;
 }
 
-
-li a
-{
-	color: white;
-	text-decoration: none;
-	font-size: 20px;
-	font-weight: 20px;
+button {
+    background-color: #F4C161;
 }
 
- .main-head
-{
-	background: #808080;
-	color: white;
-
-}
-
-.Acc
-{
-display: flex;
-	flex: 1 1 40rem;
-	justify-content: space-around;
-	align-items: center;
-	list-style: none;
-	background-color: white;
-   
-}
-
-
-nav ul
-{
-	display: flex;
-	flex: 1 1 40rem;
-	justify-content: space-around;
-	align-items: center;
-	list-style: none;
-}
-
-
-.etu
- {
-
- 	margin-top: -150px ;
- 	margin-left: 1350px;
-
- }
- button
- {
- 	background-color: #F4C161;
- }
-
-p
-{
-    
-    width: 350px;
+p {
+    width: 400px;
     margin-left: 120px;
+    padding-bottom: 10px;
     text-align: justify;
     margin-top: 50px;
     color: black;
     font-weight: bold;
-
-}
- .pil
- {
- 	margin-top: 20px;
- 	margin-left: 1250px;
- }
-
- .del
- {
- 	margin-left: 1150px;
- 	margin-top: 20px;
- }
-
- .adm
- {
- 	margin-left: 1050px;
- 	margin-top: 20px;
- }
-
- #identifiant
- {
-
- 	margin-left: 7px;
-
- }
-
- #rb
- {
- 	background-color: #F9F5F5;
- 	background-size: cover;
- }
-
-.link1
-{
-	margin-left: 150px;
-   
-	margin-top: 150px;
-color: #FFBF5A;
-	
 }
 
-
-
-
-.logo1
-{
-	margin-top: 100px;
-    margin-left: -160px;
-	display: flex;
-	flex: 1 1 40rem;
-	justify-content: space-around;
-	align-items: center;
-	list-style: none;
-	color: #FEA412;
+.bande {
+    background-color: #F9F5F5;
+    margin-bottom: 150px;
 }
 
-.Baba1
-{
-	margin-left: -20px;
-	color: black;
+.link1 {
+    color: #FFBF5A;
+    display: flex;
+    justify-content: center;
+    margin-top: 0px;
 }
 
-.Baba2
-{
-	margin-left: -40px;
-	color: black;
+.entete {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
 
-.Baba3
-{
-	margin-left: -35px;
-	color: black;
+#identifiant {
+    margin-bottom: 5px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-self: flex-end;
 }
 
-.Baba4
-{
-	margin-left: -20px;
-	color: black;
-}
-@media all and (max-width: 1024px)
-{
-
-.text-uppercase
-{
-	font-size: 10px;
+#identifiant div {
+    margin-bottom: 10px;
 }
 
-.Baba1
-{
-	margin-left: -45px;
+#texte {
+    float: left;
 }
-.Baba2
-{
-	margin-left: -50px;
-}
-.Baba3
-{
-margin-left: -42px;
-}
-.Baba4
-{
-	margin-left: -17px;
-}
-.text
-{
-	font-size: 10px;
-	margin-left: 7px;
-}
-p
-{
-    
-    width: 250px;
-    margin-left: 6px;
-    text-align: justify;
-    margin-top: 50px;
+
+.Baba1 {
+    margin-left: -20px;
     color: black;
-    font-weight: bold;
-    font-size: 10px;
-
 }
- .logo1
-{
-	font-size: -0.5px;
-	margin-top: 100px;
-	display: flex;
-	flex: 1 1 40rem;
-	justify-content: space-around;
-	align-items: center;
-	list-style: none;
-	color: #FEA412;
+
+.Baba2 {
+    margin-left: -40px;
+    color: black;
 }
-	.etu
-	{
 
-		margin-left: 5px;
-		font-size: 10px;
-		 width: auto;
-        text-align: left;
-        padding-left: 4px;
-        margin-top: 25px;
-	}
+.Baba3 {
+    margin-left: -35px;
+    color: black;
+}
 
-	.pil
-	{
-		margin-left: 200px;
-		font-size: 10px;
-		 width: auto;
-        text-align: left;
-        padding-left: 4px;
-        margin-top: -20px;
-	}
+.Baba4 {
+    margin-left: -20px;
+    color: black;
+}
 
-    .del
-    {
-    	margin-left: 200px;
-		font-size: 10px;
-		 width: auto;
-        text-align: left;
-        padding-left: 4px;
-        margin-top: 10px;
+@media all and (max-width: 1024px) {
+    p {
+        margin-left: 50px;
+        margin-right: 30px;
+        margin-top: 50px;
     }
-
-   .adm
-   {
-   	   margin-left: 5px;
-		font-size: 10px;
-		 width: auto;
-        text-align: left;
-        padding-left: 4px;
-        margin-top: -15px;
-   }
-	aside
-	{
-		margin-top: 20px;
-		margin-left: 5px;
-		font-size: 50px;
-              width: auto;
-        text-align: left;
-        padding-left: 4px;
-        
-	}
-
-    nav
-    {
-        width: auto;
-        text-align: left;
-    }
-    
-    nav ul
-    {
+    .entete {
         flex-direction: column;
     }
-
-    nav li
-    {
-        padding-left: 4px;
+    h1 {
+        margin-top: 20px;
+        margin-left: 30px;
+        font-size: 50px;
     }
-    
-    nav a
-    {
-        font-size: 1.1em;
+    #identifiant {
+        margin-bottom: unset;
+        margin-right: unset;
+        margin-left: 10%;
+        width: 100%;
+        align-self: unset;
     }
-    
-    nav a:hover
-    {
-        border-bottom: 0;
+    .bande {
+        margin-bottom: 100px;
     }
 }
 
-
+@media all and (max-width: 480px) {
+    .Acc {
+        font-size: 0.8em;
+    }
+    p {
+        width: 300px;
+        margin-left: 6px;
+        margin-top: 20px;
+    }
+    h1 {
+        margin-top: 20px;
+        margin-left: 5px;
+        font-size: 50px;
+        width: auto;
+        text-align: left;
+        padding-left: 4px;
+    }
+    .bande {
+        margin-bottom: 50px;
+    }
+    .row div {
+        margin-right: 40px;
+    }
+}
