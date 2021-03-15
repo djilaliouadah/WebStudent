@@ -1,3 +1,13 @@
+<script>
+ var typeRecupere = <?php echo json_encode($_GET["acces"]); ?>;
+</script>
+
+<?php if(!isset($_GET["acces"])){
+    header('Location: page_de_garde.php');
+    exit();
+}
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -16,7 +26,7 @@
     <header class="header" id="top">
         <div class="headerheight">
             <img src="assets/img/back'stage.PNG" alt="" />
-            <h2>Back'Stage</h2>
+            <h2 id="titre">Back'Stage</h2>
             <nav class="navbar navbar-expand-lg navbar-light bg-light borderB">
                 <a class="navbar-brand" href="#">Menu</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse"
@@ -75,9 +85,11 @@
 
 
 
+
     <script src="./assets/vendors/jquery/jquery-3.5.1.min.js"></script>
     <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
     <script src="./assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="projet.js"></script>
 
 </body>
 

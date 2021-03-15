@@ -27,7 +27,9 @@
   </header>
 
   <div class="bande">
-    <marquee behavior="alternate">Bienvenue sur Back'Stage : pour débuter veuiller vous authentifier en choisisant une option </marquee>
+    <div class="marquee">
+      <div>Bienvenue sur Back'Stage : pour débuter veuiller vous authentifier en choisisant une option</div>
+    </div>
     <div class="entete">
       <div id="texte">
         <h1>Back'Stage</h1>
