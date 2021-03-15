@@ -42,7 +42,7 @@
           <button class="etutxt"> ➜ Back'Stage pour Etudiant</button>
         </div>
 
-        <div class="pil offset-2 w-20">
+        <div class="pil offset-2">
           <button class="piltxt"> ➜ Back'Stage pour Pilote</button>
         </div>
 
@@ -50,7 +50,7 @@
           <button class="deltxt"> ➜ Back'Stage pour Délégué</button>
         </div>
 
-        <div class="admtxt">
+        <div class="adm">
           <button class="admtxt"> ➜ Back'Stage pour Administrateur</button>
         </div>
       </div>
@@ -108,7 +108,8 @@
         </div>
         <!--Grid column-->
       </div>
-      <!--Grid row-->
+    </div>
+    <!--Grid row-->
   </footer>
 
 
