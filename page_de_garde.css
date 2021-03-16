@@ -25,6 +25,14 @@ h1 {
     margin-top: 20px;
 }
 
+.marquee {
+    display: block;
+    overflow: hidden;
+    position: relative;
+    table-layout: fixed;
+    width: 100%;
+}
+
 .marquee> :first-child {
     display: inline-block;
     /* modèle de boîte en ligne */
@@ -79,11 +87,11 @@ p {
 
 #identifiant {
     margin-bottom: -70px;
-    margin-right: -100px;
     display: flex;
     flex-direction: column;
-    width: 50%;
+    width: 80%;
     align-self: flex-end;
+    max-width: 1000px;
 }
 
 #identifiant div {
@@ -131,9 +139,12 @@ p {
     #identifiant {
         margin-bottom: unset;
         margin-right: unset;
-        margin-left: 10%;
-        width: 150%;
+        margin-left: 10px;
+        margin-right: -100px;
         align-self: unset;
+    }
+    .identifiant {
+        width: 200px;
     }
     .bande {
         margin-bottom: 100px;

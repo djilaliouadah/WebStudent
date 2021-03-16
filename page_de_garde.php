@@ -55,19 +55,19 @@
       </div>
 
       <div id="identifiant">
-        <div class="etu offset-3">
+        <div class="etu offset-7">
           <button class="etutxt"> ➜ Back'Stage pour Etudiant</button>
         </div>
 
-        <div class="pil offset-2">
+        <div class="pil offset-5">
           <button class="piltxt"> ➜ Back'Stage pour Pilote</button>
         </div>
 
-        <div class="del offset-1">
+        <div class="del offset-3">
           <button class="deltxt"> ➜ Back'Stage pour Délégué</button>
         </div>
 
-        <div class="adm">
+        <div class="adm offset-1">
           <button class="admtxt"> ➜ Back'Stage pour Administrateur</button>
         </div>
       </div>
