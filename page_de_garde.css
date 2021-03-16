@@ -9,6 +9,15 @@
     }
 }
 
+.headerheight {
+    height: 60px;
+    text-align: center;
+}
+
+.borderB {
+    border: 1px solid #000;
+}
+
 h1 {
     color: #FFAF50;
     font-size: 100px;
@@ -52,6 +61,7 @@ p {
 .bande {
     background-color: #F9F5F5;
     margin-bottom: 150px;
+    padding-bottom: 100px;
 }
 
 .link1 {
@@ -68,8 +78,8 @@ p {
 }
 
 #identifiant {
-    margin-bottom: 5px;
-    margin-right: 10px;
+    margin-bottom: -70px;
+    margin-right: -100px;
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -122,11 +132,12 @@ p {
         margin-bottom: unset;
         margin-right: unset;
         margin-left: 10%;
-        width: 100%;
+        width: 150%;
         align-self: unset;
     }
     .bande {
         margin-bottom: 100px;
+        padding-bottom: 50px;
     }
 }
 
