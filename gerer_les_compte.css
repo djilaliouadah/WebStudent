@@ -92,7 +92,6 @@ ul{
 li{
     list-style-type: none;
     text-decoration: none;
-
     
 }
 
@@ -101,11 +100,18 @@ a{
 }
 .bordure
 {
-    border-width:3px;
-    border-style:solid;
-    border-color:#CFCFCF;
-    width: 35%;
+    margin-top: 2%;
+  border: 3px solid #A0A0A0; 
+  text-align: center;
+  background: #C0C0C0;
+  width: 35%;
 }
+
+.bordure ul, .bordure h3{
+position:relative;
+    right: 10px;
+}
+
 h3{
     width: 40%;
 }
