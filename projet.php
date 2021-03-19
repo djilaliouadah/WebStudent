@@ -1,4 +1,7 @@
-<script>
+<?php
+            session_start();
+?><script>
+    
  var typeRecupere = <?php echo json_encode($_GET["acces"]); ?>;
  //momo
 </script>
