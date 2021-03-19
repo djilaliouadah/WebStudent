@@ -6,7 +6,7 @@
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="gerer_les_compte.css">
+    <link rel="stylesheet" type="text/css" href="gerer_les_entreprises.css">
 <head>
   <title></title>
 </head>
@@ -52,7 +52,7 @@
       
     <div class="d-flex justify-content-center"><div class="bordure">
 
-       <h3 class="d-flex justify-content-center">Gérer les entreprises</h3>
+       <h3 class="d-flex justify-content-center">Entreprises</h3>
        <br>
        <ul>
 
