@@ -8,7 +8,7 @@
 
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
   <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.min.css">
-  <link rel="stylesheet" type="text/css" href="page_de_garde - Copie.css">
+  <link rel="stylesheet" type="text/css" href="page_de_garde.css">
 </head>
 
 <body>
