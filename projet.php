@@ -1,15 +1,24 @@
 <?php
-            session_start();
-            
+session_start();
+
 ?>
 
 <script>
- var typeRecupere = <?php echo json_encode($_GET["acces"]); ?>;
+    var typeRecupere = <?php echo json_encode($_GET["acces"]); ?>;
 </script>
 
-<?php if(!isset($_GET["acces"])){
+<?php if (!isset($_GET["acces"])) {
     header('Location: page_de_garde.php');
     exit();
+}
+
+if (isset($_GET["err"])) {
+    if ($_GET["err"] == 1) {
+        echo "<script>alert(\"mauvais utilisateur\")</script>";
+    }
+    if ($_GET["err"] == 2) {
+        echo "<script>alert(\"mauvais mot de passe\")</script>";
+    }
 }
 ?>
 
@@ -34,9 +43,7 @@
             <h2 id="titre">Back'Stage</h2>
             <nav class="navbar navbar-expand-lg navbar-light bg-light borderB">
                 <a class="navbar-brand" href="#">Menu</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -65,16 +72,16 @@
         <div class="col-md-x">
             <h1 class="center">Connexion</h1>
             <form action="principal.php" method="post">
-            <div class="colonne">
-                <label for="login" class=""> Entrez votre login :</label>
-                <input type="Login" id="Login" name="Login" class="Login" required>
-            </div>
-            <div class="colonne">
-                <label for="password"> Entrez votre mot de passe :</label>
-                <input type="pass" id="pass" name="pass" class="pass" required>
-            </div>
-            <br>
-            <br>
+                <div class="colonne">
+                    <label for="login" class=""> Entrez votre login :</label>
+                    <input type="Login" id="Login" name="Login" class="Login" required>
+                </div>
+                <div class="colonne">
+                    <label for="password"> Entrez votre mot de passe :</label>
+                    <input type="pass" id="pass" name="pass" class="pass" required>
+                </div>
+                <br>
+                <br>
                 <div class="bouton">
                     <input type="submit" name="Connexion" class="btn btn-primary">
                 </div>
@@ -86,7 +93,6 @@
         </div>
     </div>
     <footer></footer>
-
 
 
 

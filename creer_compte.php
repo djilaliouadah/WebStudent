@@ -100,7 +100,7 @@
                             $username = 'root';
                             $passwordbdd = 'password';
 
-                            $db = new PDO("mysql:host=$servername;dbname=projetweb", $username, $passwordbdd);
+                            $db = new PDO("mysql:host=$servername;dbname=projetweb", $username, "");
 
                             $prenom = $_POST['prenom'];
                             $nom = $_POST['nom'];
