@@ -46,7 +46,7 @@
     </header>
 
     <div id="we">
-<a href="page_de_garde.html">Déconnexion</a>
+<a href="page_de_garde.php">Déconnexion</a>
 </div>
 
     
