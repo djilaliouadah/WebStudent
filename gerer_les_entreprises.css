@@ -99,7 +99,7 @@ li{
 }
 .bordure
 {
-    margin-top: 2%;
+    margin-top: 7%;
   border: 3px solid #A0A0A0; 
   text-align: center;
   background: #C0C0C0;
@@ -163,13 +163,17 @@ input {
 
 .footer1 
 {
-    margin-top: 8%;
-    margin-left: 15%;
+    margin-top: 6%;
+    margin-left: 30%;
     color:blue;
 
 }
 
-
+#we
+{
+	margin-top: -5%;
+	margin-left: 90%;
+}
 
 @media screen and (max-width: 700px)
 {
