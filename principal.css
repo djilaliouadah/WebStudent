@@ -1,5 +1,4 @@
-li,
-h2 {
+ul {
     text-align: center;
 }
 
@@ -13,8 +12,28 @@ ul {
 
 h1 {
     font-size: 4em;
+    height: 200px;
 }
 
 .cacher {
     display: none;
+}
+
+.headerheight {
+    height: 200px;
+    text-align: center;
+}
+
+.borderB {
+    border: 1px solid #000;
+}
+
+.case {
+    margin: 10px 0px 10px 0px;
+    border: 1px solid #000;
+}
+
+.row {
+    position: relative;
+    left: 40px;
 }

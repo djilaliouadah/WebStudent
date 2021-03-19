@@ -53,6 +53,7 @@
                     </ul>
                 </div>
             </nav>
+        </div>
             <br>
     </header>
 
