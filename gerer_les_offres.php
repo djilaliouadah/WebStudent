@@ -45,14 +45,16 @@
             <br>
     </header>
 
-    
+    <div id="we">
+<a href="page_de_garde.html">Déconnexion</a>
+</div>
 
     
         <div class="container">
       
     <div class="d-flex justify-content-center"><div class="bordure">
 
-       <h3 class="d-flex justify-content-center">Offre</h3>
+       <h3 class="d-flex justify-content-center">Comptes</h3>
        <br>
        <ul>
 
@@ -61,6 +63,7 @@
         <li class="d-flex justify-content-center"><a href="creer_compte.php">Créer</a></li>
         <br>
         <li class="d-flex justify-content-center"><a href="">Consulter les statistiques</a></li>
+        
 
 
        </ul>
@@ -71,13 +74,12 @@
 
     </div>
 </div>
+
+
 <footer class="footer1">
     <a href="page_de_garde.html">Accueil |</a>
     <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">Présentation |</a>
     <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Conditions Générales d'Utilisation |</a>
-    <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Politique de confidentialité |</a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">Cookies |</a>
-    <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">Mentions Légales |</a>
     <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Contact |</a>
     <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Réseaux Sociaux </a>
 </footer>
