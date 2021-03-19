@@ -1,12 +1,4 @@
-@media screen and (max-width: 770px) {
-	
 
-}
-	
-
-@media screen and (max-width: 950px) {
-
-}
 
 /*--------------- Common ---------------*/
 html, body{
@@ -80,7 +72,8 @@ p {
 .maincontainer {
 	background-color: #fff;
 	border-radius: 10px;
-	box-shadow: 8px 8px 12px #aaa;
+    box-shadow: 8px 8px 12px #aaa;
+  
 }
 
 
@@ -90,25 +83,31 @@ p {
 	color: #8F2D56;
 }
 h3{
-    margin-left: 50px;
+    margin-left: 35%;
 }
 ul{
     text-decoration: none;
+   
 }
 li{
     list-style-type: none;
     text-decoration: none;
+
     
 }
 
 a{
     color: black;
 }
-
 .bordure
 {
-   
-    margin-top: 5px;
+    border-width:3px;
+    border-style:solid;
+    border-color:#CFCFCF;
+    width: 35%;
+}
+h3{
+    width: 40%;
 }
 
 .fa-arrow-up:hover {
@@ -155,4 +154,15 @@ input {
 .mdpPosition{
 	position: relative;
 	padding-left: 35px;
+}
+
+
+
+
+@media screen and (max-width: 700px)
+{
+    .bordure{
+
+        width: 70%;
+    }
 }
