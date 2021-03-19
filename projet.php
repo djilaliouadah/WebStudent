@@ -1,9 +1,9 @@
 <?php
             session_start();
-?><script>
-    
+?>
+
+<script>
  var typeRecupere = <?php echo json_encode($_GET["acces"]); ?>;
- //momo
 </script>
 
 <?php if(!isset($_GET["acces"])){
@@ -56,7 +56,6 @@
                     </ul>
                 </div>
             </nav>
-        </div>
             <br>
     </header>
 
@@ -64,20 +63,19 @@
     <div class="d-flex justify-content-center">
         <div class="col-md-x">
             <h1 class="center">Connexion</h1>
+            <form action="principal.php" method="post">
             <div class="colonne">
-                <label for="login" class=""> Entrez votre login :</label>
-                <input type="login" id="login" name="login" class="authentification-login" required>
+                <label for="login" class=""> Entrez votre email :</label>
+                <input type="Login" id="Login" name="Login" class="Login" required>
             </div>
             <div class="colonne">
-                <label for="mdp"> Entrez votre mot de passe :</label>
-                <input type="mdp" id="mdp" name="mdp" class="authentification-mdp" required>
+                <label for="password"> Entrez votre mot de passe :</label>
+                <input type="pass" id="pass" name="pass" class="pass" required>
             </div>
             <br>
             <br>
-
-            <form method="envoyer">
                 <div class="bouton">
-                    <input type="submit" value="Connexion" class="btn btn-primary">
+                    <input type="submit" name="Connexion" class="btn btn-primary">
                 </div>
                 <br>
                 <div class="">

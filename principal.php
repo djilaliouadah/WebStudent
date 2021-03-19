@@ -1,3 +1,43 @@
+<?php
+    session_start();
+
+        $servername = 'localhost';
+                $username = 'root';
+                $passwordbdd = 'password';
+
+        if (isset($_POST['Connexion']))
+        {
+            $login = $_POST['Login'];
+            $pass = $_POST['pass'];
+
+            $db = new PDO("mysql:host=$servername;dbname=projetweb", $username, $passwordbdd);
+
+            $sql = "SELECT * FROM authentification WHERE Login = '$login' AND Mdp = '$pass' ";
+            $result = $db->prepare($sql);
+            $result->execute();
+
+            if ($result->rowCount() > 0)
+            {
+                $data = $result->fetchAll();
+                
+                    //$_SESSION['email'] = $email;
+                //echo "vous vous êtes connecté sous le compte :  $email  ";
+                
+            }
+            else
+            {
+                /*$pass = password_hash($pass, PASSWORD_DEFAULT);
+                $sql = "INSERT INTO utilisateur (email, password) VALUES ('$email', '$pass')"; BOUTON INSCRITPION
+                $req = $db->prepare($sql);
+                $req->execute(); */
+                
+                header('location: projet.php');
+                
+            }
+        }
+        session_destroy ();
+?>
+
 <!DOCTYPE html>
 <html>
 
@@ -40,7 +80,13 @@
                 </div>
             </nav>
         </div>
-        <h1 class="text-center">Bienvenue</h1>
+        <h1 class="text-center">Bienvenue   <?php 
+        $_SESSION['Login'] = $login;
+
+        echo " $login  ";
+        ?></h1>
+        
+
     </header>
 
     <main class="container separate">
