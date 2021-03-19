@@ -95,8 +95,9 @@ li{
     
 }
 
-a{
-    color: black;
+.container a
+{
+    color: #000;
 }
 .bordure
 {
@@ -162,6 +163,13 @@ input {
 	padding-left: 35px;
 }
 
+.footer1 
+{
+    margin-top: 7%;
+    margin-left: 15%;
+    color:blue;
+
+}
 
 
 
