@@ -110,11 +110,25 @@
                             $login = $_POST['login'];
                             $pass = $_POST['pass'];
             
-                                $pass = password_hash($pass, PASSWORD_DEFAULT);
-                                $sql = "INSERT INTO personne (Prenom, Nom, Id_Type, Id_Centre, Id_Promotion) VALUES ('$prenom', '$nom', '$type', '$centre', '$promotion')";
-                                $sql = "INSERT INTO authentification (Login, Mdp) VALUES ('$login','$pass')";
-                                $req = $db->prepare($sql);
+                            $hash = password_hash($pass, PASSWORD_DEFAULT);
+                               
+
+                                $req = $db->prepare("INSERT INTO personne (Prenom, Nom, Id_Type, Id_Centre, Id_Promotion) VALUES (:prenom, :nom, :type, :centre, :promotion)");
+                                $req->bindValue(":prenom", $prenom);
+                                $req->bindValue(":nom", $nom);
+                                $req->bindValue(":type", $type);
+                                $req->bindValue(":centre", $centre);
+                                $req->bindValue(":promotion", $promotion);
                                 $req->execute();
+
+                                $req = $db->prepare("INSERT INTO authentification (Login, Mdp) VALUES (:login, :pass)");
+                                $req->bindValue(":login", $login);
+                                $req->bindValue(":pass", $hash);
+                                $req->execute();
+                                
+                                
+
+
                                 echo "<script>alert(\"la personne a été crée ! \")</script>";
                 
                             if ($req->rowCount() > 0)

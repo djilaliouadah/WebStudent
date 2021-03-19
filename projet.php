@@ -1,5 +1,6 @@
 <?php
             session_start();
+            
 ?>
 
 <script>
@@ -65,7 +66,7 @@
             <h1 class="center">Connexion</h1>
             <form action="principal.php" method="post">
             <div class="colonne">
-                <label for="login" class=""> Entrez votre email :</label>
+                <label for="login" class=""> Entrez votre login :</label>
                 <input type="Login" id="Login" name="Login" class="Login" required>
             </div>
             <div class="colonne">

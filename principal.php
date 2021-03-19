@@ -9,10 +9,14 @@
         {
             $login = $_POST['Login'];
             $pass = $_POST['pass'];
+            $passhash = password_hash($pass, PASSWORD_DEFAULT);
+            
+           $db = new PDO("mysql:host=$servername;dbname=projetweb", $username, $passwordbdd);
 
-            $db = new PDO("mysql:host=$servername;dbname=projetweb", $username, $passwordbdd);
+
 
             $sql = "SELECT * FROM authentification WHERE Login = '$login' AND Mdp = '$pass' ";
+
             $result = $db->prepare($sql);
             $result->execute();
 
@@ -26,11 +30,7 @@
             }
             else
             {
-                /*$pass = password_hash($pass, PASSWORD_DEFAULT);
-                $sql = "INSERT INTO utilisateur (email, password) VALUES ('$email', '$pass')"; BOUTON INSCRITPION
-                $req = $db->prepare($sql);
-                $req->execute(); */
-                
+               
                 header('location: projet.php');
                 
             }
