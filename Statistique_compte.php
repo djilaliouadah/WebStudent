@@ -6,7 +6,7 @@
   
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.min.css">
-    <link rel="stylesheet" type="text/css" href="Statistique_entreprises.css">
+    <link rel="stylesheet" type="text/css" href="Statistique_compte.css">
 <head>
   <title></title>
 </head>
@@ -62,7 +62,7 @@
 </div>
 
 <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Nombre d'offres postées en moyenne par les entreprises : 
+<label for="inputPassword" class="col-sm-7 col-form-label">Pourcentage d'étudiants ayant trouvé une entreprise :
 </label>
     <div class="col-sm-1">
       <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
@@ -70,7 +70,7 @@
     </div>
 
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Entreprise qui a posté le plus d'offres :  </label>
+<label for="inputPassword" class="col-sm-7 col-form-label">Nombre d'étudiants recensés sur le site :</label>
     <div class="col-sm-1">
       <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
     </div>
@@ -78,7 +78,7 @@
 
     
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Nombre moyen d'étudiants du CESI pris par les entreprises : </label>
+<label for="inputPassword" class="col-sm-7 col-form-label">Nombre de tuteurs recensés sur le site :</label>
     <div class="col-sm-1">
       <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
     </div>
@@ -86,7 +86,7 @@
 
     
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Entreprise qui a pris le plus d'étudiant du CESI :</label>
+<label for="inputPassword" class="col-sm-7 col-form-label">Nombre de délégués recensés sur le site :</label>
     <div class="col-sm-1">
       <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
     </div>
@@ -94,18 +94,24 @@
 
     
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Meilleure note moyenne des entreprises attribuées par les étudiants :
+<label for="inputPassword" class="col-sm-7 col-form-label">Nombre de demandes envoyées par : 
 </label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="" placeholder="Prénom">
+    </div>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="" placeholder="Nom">
+    </div>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="" placeholder="Localité">
     </div>
     </div>
 
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Meilleure note moyenne des entreprises attribuées par les pilotes :
+<label for="inputPassword" class="col-sm-7 col-form-label">Meilleure note moyenne des entreprises attribuées par les pilotes : (veuiller entrer la compétence)
 </label>
-    <div class="col-sm-3">
-      <input type="text" class="form-control" id="inputPassword" NAME="input" VALUE="" placeholder="Entrer la compétence">
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="inputPassword" NAME="input" VALUE="">
     </div>
     </div>
     
