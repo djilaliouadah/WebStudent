@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html> 
 
@@ -54,7 +53,7 @@
 
   <div class="container" style="margin-top: -3%; ">
 <center>
-<h1>Wish-List</h1>
+<h1>Mes Candidatures</h1>
 </center>
 </div>
 <div class="container" style="margin-top: 5%; ">
