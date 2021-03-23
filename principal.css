@@ -1,5 +1,7 @@
 ul {
     text-align: center;
+    position: relative;
+    right: 15px;
 }
 
 li {
@@ -34,15 +36,7 @@ h1 {
 
 .row {
     position: relative;
-    left: 40px;
     margin-bottom: 20px;
-}
-
-@media (max-width: 800px) {
-    .row {
-        margin-right: 10%;
-        padding-right: 10%;
-    }
 }
 
 .case {
@@ -84,4 +78,9 @@ body {
     background-color: #fff;
     text-align: center;
     padding: 20px;
+}
+
+.footer1 {
+    FONT-family: "arial";
+    text-align: center;
 }

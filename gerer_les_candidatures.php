@@ -55,7 +55,7 @@
             <div class="col-sm-12 carre">
                 <div class="dess">
                     <ul>
-                        <h2>Gérer les candidatures</h2>
+                        <h2>Candidatures</h2>
                         <li><a>Wish-List</a></li>
                         <li><a>Candidatures</a></li>
                         <li><a>Avancement</a></li>

@@ -55,7 +55,7 @@
             <div class="col-sm-12 carre">
                 <div class="dess">
                     <ul>
-                        <h2>Gérer les entreprises</h2>
+                        <h2>Entreprises</h2>
                         <li><a>Rechercher</a></li>
                         <li><a>Créer</a></li>
                         <li><a>Modifier</a></li>
@@ -71,13 +71,11 @@
 
     <footer class="footer1">
 
-        <center>
             <a href="page_de_garde.html">Accueil |</a>
             <a href="Présentation.html"> Présentation |</a>
             <a href="Condition d'utilisation générale.html">Conditions Générales d'Utilisation |</a>
             <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Contact |</a>
             <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Réseaux Sociaux </a>
-        </center>
 
 
     </footer>

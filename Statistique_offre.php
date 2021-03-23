@@ -13,7 +13,7 @@
 </head>
 
 <body>
-
+ 
     <header class="header" id="top">
         <div class="headerheight">
             <img src="assets/img/back'stage.PNG" alt="" />
@@ -41,60 +41,67 @@
                     </ul>
                 </div>
             </nav>
-        </div>
-        <br>
-    </header>
-
-    <div id="we">
+            <div id="we">
         <a href="page_de_garde.php">Déconnexion</a>
     </div>
-    <center>
+        </div>
+        <br>
+        
+    </header>
+
+    
+
         <h1> Statistiques Offre </h1>
-    </center>
 
-    <form class="wesh">
+        <br />
 
-        <div class="form-group row">
-            <label for="periode" class="col-sm-7 col-form-label">Etendue de la période d'analyse avant ce jour en mois : </label>
-            <div class="col-sm-1">
-                <input type="text" class="form-control" id="periode" NAME="periode" VALUE="">
-            </div>
-        </div>
+<div class="container">
 
-        <div class="form-group row">
-            <label for="duree" class="col-sm-7 col-form-label">Moyenne du temps de mission des offres :
-            </label>
-            <div class="col-sm-1">
-                <input type="text" class="form-control" id="duree" NAME="duree" VALUE="">
-            </div>
-        </div>
+        <form class="">
 
-        <div class="form-group row">
-            <label for="nbOffre" class="col-sm-7 col-form-label">Nombre totales des offres postées :</label>
-            <div class="col-sm-1">
-                <input type="text" class="form-control" id="nbOffre" NAME="nbOffre" VALUE="">
-            </div>
-        </div>
+<div class="form-group row">
+    <label for="periode" class="">Etendue de la période d'analyse avant ce jour en mois :</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="periode" NAME="periode" VALUE="">
+    </div>
+</div>
 
+<div class="form-group row">
+<label for="nombre" class="">Moyenne du temps de mission des offres :
+</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="nombre" NAME="nombre" VALUE="">
+    </div>
+    </div>
 
-        <div class="form-group row">
-            <label for="competence" class="col-sm-7 col-form-label">Compétence la plus recherchée :
-            </label>
-            <div class="col-sm-1">
-                <input type="text" class="form-control" id="competence" NAME="competence" VALUE="">
-            </div>
-        </div>
+    <div class="form-group row">
+<label for="offre" class="">Nombre totales des offres postées : </label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="offre" NAME="offre" VALUE="">
+    </div>
+    </div>
 
+    
+    <div class="form-group row">
+<label for="moyenne" class="">Compétence la plus recherchée : </label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="moyenne" NAME="moyenne" VALUE="">
+    </div>
+    </div>
 
-        <div class="form-group row">
-            <label for="localisation" class="col-sm-7 col-form-label">La localisation la plus demandée :</label>
-            <div class="col-sm-1">
-                <input type="text" class="form-control" id="localisation" NAME="localisation" VALUE="">
-            </div>
-        </div>
-    </form>
+    
+    <div class="form-group row">
+<label for="nbEtudiant" class="">La localisation la plus demandée :</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="nbEtudiant" NAME="nbEtudiant" VALUE="">
+    </div>
+    </div>
 
+    
+    
+</form>
 
+</div>
     <footer class="footer1">
         <a href="page_de_garde.html">Accueil |</a>
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">Présentation |</a>

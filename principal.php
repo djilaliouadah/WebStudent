@@ -54,8 +54,9 @@
         <div class="row">
             <div class="col-sm-12 col-md-5 col-xl-5 case">
                 <div class="dess">
+                    <span>
                     <ul>
-                        <h2>Gérer les comptes</h2>
+                        <h2>Comptes</h2>
                         <li class="cacher"><a>Rechercher</a></li>
                         <li><a>Créer</a></li>
                         <li><a>Modifier</a></li>
@@ -63,6 +64,7 @@
                         <li><a>Assigner des droits</a></li>
                         <li><a>Consulter les statistiques</a></li>
                     </ul>
+</span>
                 </div>
             </div>
             <div class="col-sm-4 col-md-1 col-xl-1 case masquer">
@@ -70,7 +72,7 @@
             <div class="col-sm-12 col-md-5 col-xl-5 case">
 
                 <ul>
-                    <h2>Gérer les entreprises</h2>
+                    <h2>Entreprises</h2>
                     <li><a>Rechercher</a></li>
                     <li><a>Créer</a></li>
                     <li><a>Modifier</a></li>
@@ -85,7 +87,7 @@
             <div class="col-sm-12 col-md-5 col-xl-5 case">
 
                 <ul>
-                    <h2>Gérer les candidatures</h2>
+                    <h2>Candidatures</h2>
                     <li><a>Wish-List</a></li>
                     <li><a>Candidatures</a></li>
                     <li><a>Avancement</a></li>
@@ -96,7 +98,7 @@
             <div class="col-sm-12 col-md-5 col-xl-5 case">
 
                 <ul>
-                    <h2>Gérer les offres</h2>
+                    <h2>Offres</h2>
                     <li><a>Rechercher</a></li>
                     <li><a>Créer</a></li>
                     <li><a>Modifier</a></li>
@@ -111,13 +113,11 @@
 
     <footer class="footer1">
 
-        <center>
             <a href="page_de_garde.html">Accueil |</a>
             <a href="Présentation.html"> Présentation |</a>
             <a href="Condition d'utilisation générale.html">Conditions Générales d'Utilisation |</a>
             <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Contact |</a>
             <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Réseaux Sociaux </a>
-        </center>
 
 
     </footer>
