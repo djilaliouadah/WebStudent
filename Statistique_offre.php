@@ -102,7 +102,8 @@
     <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Contact |</a>
     <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Réseaux Sociaux </a>
 </footer>
-<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  <script src="./assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="./assets/vendors/jquery/jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <script src="./assets/vendors/bootstrap/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
