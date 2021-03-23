@@ -1,137 +1,72 @@
-@media screen and (max-width: 770px) {
-	
-
-}
-	
-
-@media screen and (max-width: 950px) {
-
-}
-
 /*--------------- Common ---------------*/
-html, body{
-	background: #eee !important;
-	width: 100%;
-	font-family: 'Happy Monkey', cursive;
-	scroll-behavior: smooth;
-}
 
-p {
-	margin: 50px 15px;
-}
-
-.h1 {
-	padding: 10px;
-	border-bottom: 1px solid #ccc;
+html,
+body {
+    background: #eee !important;
+    width: 100%;
+    font-family: 'Happy Monkey', cursive;
+    scroll-behavior: smooth;
 }
 
 .linkwithpersonnalstyle:hover {
-	text-decoration: none;
-	background-color:gold;
-}
-
-.black {
-	color:black;
-}
-
-.white {
-	color: white;
-}
-
-.evidence {
-	font-weight: bold;
-	border: 1px solid #000;
-	background-color:#ccc;
-	padding: 5px;
-	margin: 25px;
+    text-decoration: none;
+    background-color: gold;
 }
 
 .borderB {
-	border: 1px solid #000;
+    border: 1px solid #000;
 }
+
 
 /*---------------- header ---------------*/
+
+
+/*////////////////////////////*/
+
 .header {
-	background-color: #fff;
-	text-align: center;
-	padding: 20px;
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
 }
 
-.center{
-	text-align: center;
+.center {
+    text-align: center;
 }
 
 .headerheight {
-	height:200px;
-	text-align: center;
+    height: 200px;
+    text-align: center;
 }
-
 
 
 /*---------------- menu -------------------*/
-.topnav a:hover {
-	background-color:#F1F1F1;
-	color: black;
-}
-
 
 
 /*--------------- Main block ---------------*/
-.maincontainer {
-	background-color: #fff;
-	border-radius: 10px;
-	box-shadow: 8px 8px 12px #aaa;
-}
 
 
 /*----------------- bouton to the top ----------------------*/
- .fas {
-	font-size:50px;
-	color: #8F2D56;
-}
-
-.fa-arrow-up:hover {
-	color: #FFBC42;
-}
-
- #myBtn {
-		text-align: center;
-        max-width: 30px;
-        width: 100%;
-        font-size: 12px;
-        padding: 3px;
-        border-radius: 4px;
-
-    }
-
 
 
 /*---------------- Connexion ---------------*/
-.page {
-  text-align: center;  
-}
-
-.total{
-}
 
 input {
-	width: 80%;
+    width: 80%;
 }
 
-
-.colonne{
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	margin-left: 30px;
+.colonne {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-left: 30px;
 }
 
-.bouton{
-	position: relative;
-	padding-left: 30px;
+.bouton {
+    position: relative;
+    padding-left: 30px;
 }
 
-.mdpPosition{
-	position: relative;
-	padding-left: 35px;
+.mdpPosition {
+    position: relative;
+    padding-left: 35px;
 }

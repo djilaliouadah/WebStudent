@@ -49,7 +49,7 @@
         <a href="page_de_garde.php">Déconnexion</a>
     </div>
     <center>
-        <h1> Statistiques Entreprises </h1>
+        <h1> Statistiques Offre </h1>
     </center>
 
     <form class="wesh">

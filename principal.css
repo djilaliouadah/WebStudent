@@ -1,13 +1,10 @@
 ul {
     text-align: center;
+    list-style: none;
 }
 
 li {
     font-size: 1.4em;
-}
-
-ul {
-    list-style: none;
 }
 
 h1 {
