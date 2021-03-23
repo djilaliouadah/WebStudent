@@ -1,15 +1,51 @@
+ul {
+    text-align: center;
+}
+
+li {
+    font-size: 1.4em;
+}
+
+.carre {
+    font-family: "arial";
+    FONT-size: 16pt;
+    width: 90%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border: 3px solid #A0A0A0;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    background: #C0C0C0;
+}
+
+ul {
+    list-style: none;
+}
+
+.cacher {
+    display: none;
+}
+
+.headerheight {
+    height: 200px;
+    text-align: center;
+}
+
+.borderB {
+    border: 1px solid #000;
+}
+
+
 /*--------------- Common ---------------*/
 
-html,
 body {
     background: #eee !important;
     width: 100%;
     font-family: 'Happy Monkey', cursive;
     scroll-behavior: smooth;
-}
-
-.borderB {
-    border: 1px solid #000;
 }
 
 
@@ -19,11 +55,7 @@ body {
     background-color: #fff;
     text-align: center;
     padding: 20px;
-}
-
-.headerheight {
-    height: 200px;
-    text-align: center;
+    font-family: "arial";
 }
 
 
@@ -32,66 +64,13 @@ body {
 
 /*--------------- Main block ---------------*/
 
-.maincontainer {
-    background-color: #fff;
-    border-radius: 10px;
-    box-shadow: 8px 8px 12px #aaa;
-}
-
 
 /*----------------- bouton to the top ----------------------*/
 
-h3 {
-    margin-left: 35%;
-    width: 40%;
-}
 
-li {
-    list-style-type: none;
-    text-decoration: none;
-}
-
-.container a {
-    color: #000;
-}
-
-.bordure {
-    margin-top: 7%;
-    border: 3px solid #A0A0A0;
-    text-align: center;
-    background: #C0C0C0;
-    width: 35%;
-}
-
-.bordure ul,
-.bordure h3 {
-    position: relative;
-    right: 10px;
-}
-
-
-/*---------------- Connexion ---------------*/
-
-.colonne {
-    display: flex;
-    flex-direction: column;
-    position: relative;
-    margin-left: 30px;
-}
+/*---------------- Pied de page ---------------*/
 
 .footer1 {
-    margin-top: 8%;
-    margin-left: 30%;
-    color: blue;
-}
-
-#we {
-    margin-top: -5%;
-    margin-left: 90%;
-}
-
-@media screen and (max-width: 700px) {
-    .bordure {
-        width: 70%;
-    }
+    FONT-family: "arial";
+    text-align: center;
 }

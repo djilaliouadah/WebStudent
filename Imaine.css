@@ -5,11 +5,9 @@
 
 /*--------------- Common ---------------*/
 
-html,
 body {
     background: #eee !important;
     width: 100%;
-    font-family: 'Happy Monkey', cursive;
     scroll-behavior: smooth;
 }
 
@@ -25,14 +23,6 @@ p {
 .linkwithpersonnalstyle:hover {
     text-decoration: none;
     background-color: gold;
-}
-
-.black {
-    color: black;
-}
-
-.white {
-    color: white;
 }
 
 .evidence {

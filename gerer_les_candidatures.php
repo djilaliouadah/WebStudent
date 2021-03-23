@@ -55,12 +55,10 @@
             <div class="col-sm-12 carre">
                 <div class="dess">
                     <ul>
-                        <h2>Gérer les offres</h2>
-                        <li class="cacher"><a>Rechercher</a></li>
-                        <li><a>Créer</a></li>
-                        <li><a>Modifier</a></li>
-                        <li><a>Supprimer</a></li>
-                        <li><a>Consulter les statistiques</a></li>
+                        <h2>Gérer les candidatures</h2>
+                        <li><a>Wish-List</a></li>
+                        <li><a>Candidatures</a></li>
+                        <li><a>Avancement</a></li>
                     </ul>
                 </div>
             </div>
