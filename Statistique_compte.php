@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Back'Stage</title>
@@ -7,8 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="Statistique_compte.css">
-<head>
-  <title></title>
+
 </head>
 <body>
 
@@ -55,40 +55,40 @@
 <form class="wesh">
 
 <div class="form-group row">
-    <label for="inputPassword" class="col-sm-7 col-form-label">Etendue de la période d'analyse avant ce jour en mois :</label>
+    <label for="periode" class="col-sm-7 col-form-label">Etendue de la période d'analyse avant ce jour en mois :</label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="periode" NAME="periode" VALUE="">
     </div>
 </div>
 
 <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Pourcentage d'étudiants ayant trouvé une entreprise :
+<label for="trouve" class="col-sm-7 col-form-label">Pourcentage d'étudiants ayant trouvé une entreprise :
 </label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="trouve" NAME="trouve" VALUE="">
     </div>
     </div>
 
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Nombre d'étudiants recensés sur le site :</label>
+<label for="nbEtu" class="col-sm-7 col-form-label">Nombre d'étudiants recensés sur le site :</label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
-    </div>
-    </div>
-
-    
-    <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Nombre de tuteurs recensés sur le site :</label>
-    <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="nbEtu" NAME="nbEtu" VALUE="">
     </div>
     </div>
 
     
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Nombre de délégués recensés sur le site :</label>
+<label for="nbTuteur" class="col-sm-7 col-form-label">Nombre de tuteurs recensés sur le site :</label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="nbTuteur" NAME="nbTuteur" VALUE="">
+    </div>
+    </div>
+
+    
+    <div class="form-group row">
+<label for="nbDelegue" class="col-sm-7 col-form-label">Nombre de délégués recensés sur le site :</label>
+    <div class="col-sm-1">
+      <input type="text" class="form-control" id="nbDelegue" NAME="nbDelegue" VALUE="">
     </div>
     </div>
 
@@ -108,17 +108,17 @@
     </div>
 
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Meilleure note moyenne des entreprises attribuées par les pilotes : (veuiller entrer la compétence)
+<label for="topNote" class="col-sm-7 col-form-label">Meilleure note moyenne des entreprises attribuées par les pilotes : (veuiller entrer la compétence)
 </label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="input" VALUE="">
+      <input type="text" class="form-control" id="topNote" NAME="topNote" VALUE="">
     </div>
     </div>
     
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Nombre entreprise proposant cette compétence :</label>
+<label for="competence" class="col-sm-7 col-form-label">Nombre entreprise proposant cette compétence :</label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="competence" NAME="competence" VALUE="">
     </div>
     </div>
 </form>

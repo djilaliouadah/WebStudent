@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+    <head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Back'Stage</title>
@@ -7,8 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="candidatures.css">
-<head>
-  <title></title>
+
 </head>
 <body>
 
@@ -59,9 +59,7 @@
        <ul>
 
         <li class="d-flex justify-content-center"><a href="">Wish-List</a></li>
-        <br>
         <li class="d-flex justify-content-center"><a href="creer_compte.php">Candidatures</a></li>
-        <br>
         <li class="d-flex justify-content-center"><a href="">Avancement</a></li>
         
 

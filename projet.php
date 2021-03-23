@@ -65,6 +65,7 @@ if (isset($_GET["err"])) {
                 </div>
             </nav>
             <br>
+        </div>
     </header>
 
 

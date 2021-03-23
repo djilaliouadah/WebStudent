@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<head>
     <meta charset='utf-8'>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Back'Stage</title>
@@ -7,8 +8,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./assets/vendors/fontawesome/css/all.min.css">
     <link rel="stylesheet" type="text/css" href="Statistique_entreprises.css">
-<head>
-  <title></title>
+
 </head>
 <body>
 
@@ -55,64 +55,64 @@
 <form class="wesh">
 
 <div class="form-group row">
-    <label for="inputPassword" class="col-sm-7 col-form-label">Etendue de la période d'analyse avant ce jour en mois :</label>
+    <label for="periode" class="col-sm-7 col-form-label">Etendue de la période d'analyse avant ce jour en mois :</label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="periode" NAME="periode" VALUE="">
     </div>
 </div>
 
 <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Nombre d'offres postées en moyenne par les entreprises : 
+<label for="nombre" class="col-sm-7 col-form-label">Nombre d'offres postées en moyenne par les entreprises : 
 </label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="nombre" NAME="nombre" VALUE="">
     </div>
     </div>
 
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Entreprise qui a posté le plus d'offres :  </label>
+<label for="offre" class="col-sm-7 col-form-label">Entreprise qui a posté le plus d'offres :  </label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="offre" NAME="offre" VALUE="">
     </div>
     </div>
 
     
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Nombre moyen d'étudiants du CESI pris par les entreprises : </label>
+<label for="moyenne" class="col-sm-7 col-form-label">Nombre moyen d'étudiants du CESI pris par les entreprises : </label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="moyenne" NAME="moyenne" VALUE="">
     </div>
     </div>
 
     
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Entreprise qui a pris le plus d'étudiant du CESI :</label>
+<label for="nbEtudiant" class="col-sm-7 col-form-label">Entreprise qui a pris le plus d'étudiant du CESI :</label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="nbEtudiant" NAME="nbEtudiant" VALUE="">
     </div>
     </div>
 
     
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Meilleure note moyenne des entreprises attribuées par les étudiants :
+<label for="topEtu" class="col-sm-7 col-form-label">Meilleure note moyenne des entreprises attribuées par les étudiants :
 </label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="topEtu" NAME="topEtu" VALUE="">
     </div>
     </div>
 
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Meilleure note moyenne des entreprises attribuées par les pilotes :
+<label for="topPil" class="col-sm-7 col-form-label">Meilleure note moyenne des entreprises attribuées par les pilotes :
 </label>
     <div class="col-sm-3">
-      <input type="text" class="form-control" id="inputPassword" NAME="input" VALUE="" placeholder="Entrer la compétence">
+      <input type="text" class="form-control" id="topPil" NAME="topPil" VALUE="" placeholder="Entrer la compétence">
     </div>
     </div>
     
     <div class="form-group row">
-<label for="inputPassword" class="col-sm-7 col-form-label">Nombre entreprise proposant cette compétence :</label>
+<label for="competence" class="col-sm-7 col-form-label">Nombre entreprise proposant cette compétence :</label>
     <div class="col-sm-1">
-      <input type="text" class="form-control" id="inputPassword" NAME="output" VALUE="">
+      <input type="text" class="form-control" id="competence" NAME="competence" VALUE="">
     </div>
     </div>
 </form>
