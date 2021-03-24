@@ -1,3 +1,12 @@
+@media screen and (max-width: 770px) {
+	
+
+}
+	
+
+@media screen and (max-width: 950px) {
+	
+}
 
 /*--------------- Common ---------------*/
 html, body{
@@ -46,10 +55,12 @@ p {
 	background-color: #fff;
 	text-align: center;
 	padding: 20px;
+	font-family: "arial";
 }
 
-.center{
+.center {
 	text-align: center;
+	FONT-family: "Impact";
 }
 
 .headerheight {
@@ -71,8 +82,7 @@ p {
 .maincontainer {
 	background-color: #fff;
 	border-radius: 10px;
-    box-shadow: 8px 8px 12px #aaa;
-  
+	box-shadow: 8px 8px 12px #aaa;
 }
 
 
@@ -80,40 +90,6 @@ p {
  .fas {
 	font-size:50px;
 	color: #8F2D56;
-}
-h3{
-    margin-left: 35%;
-}
-ul{
-    text-decoration: none;
-   
-}
-li{
-    list-style-type: none;
-    text-decoration: none;
-    
-}
-
-.container a
-{
-    color: #000;
-}
-.bordure
-{
-    margin-top: 7%;
-  border: 3px solid #A0A0A0; 
-  text-align: center;
-  background: #C0C0C0;
-  width: 35%;
-}
-
-.bordure ul, .bordure h3{
-position:relative;
-    right: 10px;
-}
-
-h3{
-    width: 40%;
 }
 
 .fa-arrow-up:hover {
@@ -132,54 +108,30 @@ h3{
 
 
 
-/*---------------- Connexion ---------------*/
-.page {
-  text-align: center;  
+/*---------------- Pied de page ---------------*/
+
+.footer1 {
+	FONT-family: "arial";
+	text-align: center;
 }
 
-.total{
+.colonne {
+	text-align: center;
+	FONT-family: "arial";
+}
+.bouton {
+	FONT-family: "arial";
+	text-align: center;
+}
+.check {
+	text-align:left;
+	FONT-family: "arial";
 }
 
-input {
-	width: 80%;
-}
-
-
-.colonne{
-	display: flex;
-	flex-direction: column;
-	position: relative;
-	margin-left: 30px;
-}
-
-.bouton{
-	position: relative;
-	padding-left: 30px;
-}
-
-.mdpPosition{
-	position: relative;
-	padding-left: 35px;
-}
-
-.footer1 
-{
-    margin-top: 8%;
-    margin-left: 30%;
-    color:blue;
-
-}
-
-#we
-{
+#we {
 	margin-top: -5%;
-	margin-left: 90%;
+	margin-left: 92%;
+	FONT-family: "arial";
+	FONT-size: 14pt;
 }
 
-@media screen and (max-width: 700px)
-{
-    .bordure{
-
-        width: 70%;
-    }
-}

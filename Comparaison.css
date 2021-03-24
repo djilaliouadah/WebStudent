@@ -1,0 +1,179 @@
+@media screen and (max-width: 770px) {
+	
+
+}
+	
+
+@media screen and (max-width: 950px) {
+	
+}
+
+/*--------------- Common ---------------*/
+html, body{
+	background: #eee !important;
+	width: 100%;
+	font-family: 'Happy Monkey', cursive;
+	scroll-behavior: smooth;
+}
+
+p {
+	margin: 50px 15px;
+}
+
+.h1 {
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+.linkwithpersonnalstyle:hover {
+	text-decoration: none;
+	background-color:gold;
+}
+
+.black {
+	color:black;
+}
+
+.white {
+	color: white;
+}
+
+.evidence {
+	font-weight: bold;
+	border: 1px solid #000;
+	background-color:#ccc;
+	padding: 5px;
+	margin: 25px;
+}
+
+.borderB {
+	border: 1px solid #000;
+}
+
+/*---------------- header ---------------*/
+.header {
+	background-color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+
+.center {
+	text-align: center;
+}
+
+.headerheight {
+	height:200px;
+	text-align: center;
+}
+
+
+
+/*---------------- menu -------------------*/
+.topnav a:hover {
+	background-color:#F1F1F1;
+	color: black;
+}
+
+
+
+
+
+/*---------------- boutons -------------------*/
+.btn1 {
+	color: black;
+	border: 3px solid black;
+	display: block;
+	background: #35a1fe;
+	width: 150px;
+	height: 50px;
+	margin-right: auto;
+	margin-top: 1000px;
+	margin-left: auto;
+	text-align: center;
+	FONT-family: "arial";
+	FONT-size: 16pt;
+	margin-top: 50px;
+}
+
+.btn2 {
+	color: black;
+	border: 3px solid black;
+	display: block;
+	background: #35a1fe;
+	width: 150px;
+	height: 50px;
+	margin-right: auto;
+	margin-top: 1000px;
+	margin-left: auto;
+	text-align: center;
+	FONT-family: "arial";
+	FONT-size: 16pt;
+}
+/*---------------- barre de recherche -------------------*/
+label {
+	display: block;
+	font: 1rem 'Fira Sans', sans-serif;
+
+}
+
+input,
+label {
+	margin: .4rem 0;
+
+}
+
+.search {
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+	FONT-family: "arial";
+	FONT-size: 18pt;
+}
+
+}
+/*---------------- Cadres des textes annonces -------------------*/
+
+.carre2 {
+	width: 50%;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 3px solid black;
+	margin-right: 200px;
+	margin-left: auto;
+	text-align: center;
+	background: white;
+	position: sticky;
+	top: auto;
+	left: auto;
+	FONT-family: "arial";
+	FONT-size: 18pt;
+}
+.carre3 {
+	width: 50%;
+	padding-top: 10px;
+	padding-bottom: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+	border: 3px solid black;
+	margin-right: auto;
+	margin-left:200px
+	text-align: center;
+	background: white;
+	position: sticky;
+	top: auto;
+	left: auto;
+	FONT-family: "arial";
+	FONT-size: 18pt;
+}
+
+/*---------------- lien deconnexion en haut a droit-------------------*/
+
+#we {
+	margin-top: -5%;
+	margin-left: 92%;
+	FONT-family: "arial";
+	FONT-size: 14pt;
+}
+

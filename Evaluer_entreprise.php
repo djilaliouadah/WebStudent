@@ -41,53 +41,54 @@
                     </ul>
                 </div>
             </nav>
+            <div id="we">
+                <a href="page_de_garde.php">Déconnexion</a>
+            </div>
         </div>
         <br>
+
     </header>
+    <h1>Evaluer une Entreprise</h1>
 
-    <div id="we">
-        <a href="page_de_garde.php">Déconnexion</a>
-    </div>
-    <center>
-        <h1>Evaluer une Entreprise</h1>
-    </center>
+    <form class="">
 
-    <form class="wesh">
+        <div class="rangement">
 
-        <div class="form-group row">
-            <label for="nom" class="col-3-3 col-form-label">Nom de l'entreprise :</label>
-            <div class="col-sm-2">
-                <input type="text" class="form-control" id="nom" NAME="nom" VALUE="">
+            <div class="">
+                <label for="nom" class="">Nom de l'entreprise :</label>
+                <div class="">
+                    <input type="text" class="txtEntreprise" id="nom" NAME="nom" VALUE="">
+                </div>
             </div>
-        </div>
-    </form>
-    <div id="rhalis">
-        <div class="rating">
-            <!--
-   --><a href="#5" title="Donner 5 étoiles">☆</a>
-            <!--
-   --><a href="#4" title="Donner 4 étoiles">☆</a>
-            <!--
-   --><a href="#3" title="Donner 3 étoiles">☆</a>
-            <!--
-   --><a href="#2" title="Donner 2 étoiles">☆</a>
-            <!--
-   --><a href="#1" title="Donner 1 étoile">☆</a>
-        </div>
-    </div>
 
-    <form class="bah">
-        <div class="form-group row">
-            <label for="commentaire" class="col-3-7 col-form-label">Commentaire (Falcutatif):
-            </label>
-            <div class="col-sm-3">
-                <input type="text" class="form-control" id="commentaire" NAME="commentaire" VALUE="" style="height:150px;">
+            <div id="rhalis" class="rating">
+
+                <a href="#5" title="Donner 5 étoiles">☆</a>
+
+                <a href="#4" title="Donner 4 étoiles">☆</a>
+
+                <a href="#3" title="Donner 3 étoiles">☆</a>
+
+                <a href="#2" title="Donner 2 étoiles">☆</a>
+
+                <a href="#1" title="Donner 1 étoile">☆</a>
+
             </div>
-        </div>
-        <div class="ehpa">
-            <div class="col-sm-4">
-                <input type="submit" value="Evaluer l'entreprise">
+
+            <div class="">
+                <label for="commentaire" class="col-3-7 col-form-label">Commentaire (Falcutatif):
+                </label>
+                <div class="">
+                    <textarea class="form-control" id="commentaire" NAME="commentaire" VALUE=""></textarea>
+                </div>
             </div>
+            <br />
+            <div class="">
+                <div class="">
+                    <input type="submit" value="Evaluer l'entreprise">
+                </div>
+            </div>
+
         </div>
     </form>
 
