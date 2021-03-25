@@ -78,11 +78,6 @@
                             <img src="img1.png " alt="Précédent" style="width: 50px;" />
                         </a>
                     </div>
-                    <div class="fav">
-                        <a href="">
-                            <img src="coeur.png " alt="ajoutez aux favoris" style="width: 50px;" />
-                        </a>
-                    </div>
                     <div class="suivant">
                         <a href="">
                             <img src="img2.png " alt="Suivant" style="width: 50px;" />
@@ -104,15 +99,9 @@
                 <br>
 
                 <input type="submit" value="Supprimer" class="btn">
-
+            </form>
         </div>
     </div>
-    </form>
-
-
-
-
-
 
 
 
@@ -120,15 +109,12 @@
     <br>
     <br>
     <footer class="footer1">
-        <FONT face="arial">
-            <center>
-                <a href="page_de_garde.html">Accueil |</a>
-                <a href="Présentation.html"> Présentation |</a>
-                <a href="Condition d'utilisation générale.html">Conditions Générales d'Utilisation |</a>
-                <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Contact |</a>
-                <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Réseaux Sociaux </a>
-            </center>
-        </FONT>
+        <a href="page_de_garde.html">Accueil |</a>
+        <a href="Présentation.html"> Présentation |</a>
+        <a href="Conditiond'utilisationgénérale.html">Conditions Générales d'Utilisation |</a>
+        <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Contact |</a>
+        <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Réseaux Sociaux </a>
+
 
     </footer>
 

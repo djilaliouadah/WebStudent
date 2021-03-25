@@ -1,0 +1,61 @@
+h1 {
+    font-size: 4em;
+    height: 200px;
+}
+
+.headerheight {
+    height: 200px;
+    text-align: center;
+}
+
+.borderB {
+    border: 1px solid #000;
+}
+
+
+/*--------------- Common ---------------*/
+
+html,
+body {
+    background: #eee !important;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.borderB {
+    border: 1px solid #000;
+}
+
+
+/*---------------- header ---------------*/
+
+
+/*////////////////////////////*/
+
+.header {
+    background-color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer1 {
+    FONT-family: "arial";
+    text-align: center;
+}
+
+.centrer {
+    text-align: center;
+}
+
+input {
+    width: 300px;
+}
+
+label {
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.bouton {
+    background-color: gray;
+}

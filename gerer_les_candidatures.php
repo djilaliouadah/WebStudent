@@ -54,8 +54,9 @@
         <div class="row">
             <div class="col-sm-12 carre">
                 <div class="dess">
+                <h2>Candidatures</h2>
                     <ul>
-                        <h2>Candidatures</h2>
+                        
                         <li><a>Wish-List</a></li>
                         <li><a>Candidatures</a></li>
                         <li><a>Avancement</a></li>
@@ -68,13 +69,13 @@
 
     <footer class="footer1">
 
-        <center>
+    
             <a href="page_de_garde.html">Accueil |</a>
             <a href="Présentation.html"> Présentation |</a>
-            <a href="Condition d'utilisation générale.html">Conditions Générales d'Utilisation |</a>
+            <a href="Conditiond'utilisationgénérale.html">Conditions Générales d'Utilisation |</a>
             <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Contact |</a>
             <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Réseaux Sociaux </a>
-        </center>
+     
 
 
     </footer>

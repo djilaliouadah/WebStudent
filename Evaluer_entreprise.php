@@ -79,7 +79,7 @@
                 <label for="commentaire" class="col-3-7 col-form-label">Commentaire (Falcutatif):
                 </label>
                 <div class="">
-                    <textarea class="form-control" id="commentaire" NAME="commentaire" VALUE=""></textarea>
+                    <textarea class="form-control" id="commentaire" NAME="commentaire"></textarea>
                 </div>
             </div>
             <br />

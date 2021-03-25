@@ -127,15 +127,13 @@
     <br>
     <br>
     <footer class="footer1">
-        <FONT face="arial">
-            <center>
+      
                 <a href="page_de_garde.html">Accueil |</a>
                 <a href="Présentation.html"> Présentation |</a>
-                <a href="Condition d'utilisation générale.html">Conditions Générales d'Utilisation |</a>
+                <a href="Conditiond'utilisationgénérale.html">Conditions Générales d'Utilisation |</a>
                 <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Contact |</a>
                 <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Réseaux Sociaux </a>
-            </center>
-        </FONT>
+        
 
     </footer>
 
