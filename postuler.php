@@ -48,7 +48,7 @@
         <br>
 
     </header>
-   <h1> Postuler </h1>
+    <h1> Postuler </h1>
     <h2>Ma candidature au poste de <strong>nom du poste</strong> chez <strong>nom de l'entreprise</strong></h2>
 
     <form class="">
@@ -56,25 +56,25 @@
         <div class="rangement">
 
             <div class="ginko">
-                <label for="nom" class="">CV : </label>
                 <div class="">
-                <input type="hidden" name="MAX_FILE_SIZE" value="4194304" /> <input type="file" />
+                    <label for="nom" class="">CV : </label>
+                    <input type="file" id="nom" name="MAX_FILE_SIZE" />
                 </div>
-</br>
+                <br>
                 <div class="">
-                <label for="nom" class="">Lettre de Motivation : </label>
-                <div class="">
-                <input type="hidden" name="MAX_FILE_SIZE" value="4194304" /> <input type="file" />
+                    <label for="nom" class="">Lettre de Motivation : </label>
+                    <div class="">
+                        <input type="file" name="MAX_FILE_SIZE" />
+                    </div>
                 </div>
             </div>
-            </div>
-</br>
-           
+            <br>
+
             <div class="">
-                <label for="commentaire" class="col-3-7 col-form-label">Commentaire (Falcutatif):
-                </label>
                 <div class="">
-                    <textarea class="form-control" id="commentaire" NAME="commentaire" VALUE=""></textarea>
+                    <label for="commentaire" class="col-3-7 col-form-label">Commentaire (Falcutatif):
+                    </label>
+                    <textarea class="form-control" id="commentaire" NAME="commentaire"></textarea>
                 </div>
             </div>
             <br />
@@ -86,7 +86,7 @@
 
         </div>
     </form>
-    
+
     <footer class="footer1">
         <a href="page_de_garde.html">Accueil |</a>
         <a href="https://developer.mozilla.org/en-US/docs/Web/HTML/Element/header">Présentation |</a>

@@ -36,19 +36,6 @@ body {
 
 /*---------------- boutons sur le cot� droit-------------------*/
 
-.btn {
-    color: black;
-    border: 5px solid black;
-    display: block;
-    background: #35a1fe;
-    width: 200px;
-    height: 50px;
-    margin-left: auto;
-    text-align: center;
-    FONT-family: "arial";
-    FONT-size: 17pt;
-}
-
 input,
 label {
     margin: .4em 0;
@@ -69,7 +56,7 @@ label {
 }
 
 .carre2 {
-    width: 100%;
+    width: 70%;
     padding-top: 10px;
     padding-bottom: 0px;
     padding-left: 10px;
@@ -79,7 +66,6 @@ label {
     margin-left: auto;
     text-align: left;
     background: white;
-    position: sticky;
     top: auto;
     left: auto;
     FONT-family: "arial";
@@ -88,16 +74,6 @@ label {
 
 .texte {
     max-width: 800px;
-    margin-left: 30%;
-    margin-right: 10%;
-}
-
-.boutons {
-    margin-top: 50px;
-}
-
-.selection {
-    margin-right: 10%;
 }
 
 .photo {
@@ -105,20 +81,14 @@ label {
 }
 
 .changement {
-    display: flex;
-    flex-direction: row;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
-@media (max-width: 800px) {
-    .texte {
-        margin-left: 10%;
-    }
-    .changement {
-        flex-direction: column;
-    }
-    .selection {
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 30px;
-    }
+.contenu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
+
+@media (max-width: 800px) {}

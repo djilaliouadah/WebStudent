@@ -63,11 +63,11 @@
     </div>
     <br>
     <br>
-
     <div class="changement">
         <div class="d-flex texte flex-column">
             <div class="carre2">
-                <p>jkgoirjgi efggpiog jirp jgl i rj ipov jipg jsrio pgjovd iovjdifp osgh jufidpjv i ofpdpvhd i </p>
+                <img src="perso.png " class="photo" alt="profil" style="width: 105px;" />
+                <p>jkgoirjgi efggpiog jirp jgl i rj ipov jipg jsrio pgjovd iovjdifp osgh jufidpjfgdg dug joijrug hfduihvuipfdhosugfdso uirh sguoi regonughuihui rhtgu ihturi hrgru rgoui hoig hruoi ghlv i ofpdpvhd i </p>
 
             </div>
 
@@ -90,7 +90,6 @@
 
             <form method="post">
 
-
                 <input type="submit" value="Créer" class="btn">
 
                 <br>
@@ -100,13 +99,6 @@
                 <br>
 
                 <input type="submit" value="Supprimer" class="btn">
-
-                <br>
-
-                <input type="submit" value="Evaluer" class="btn">
-                <br>
-
-                <input type="submit" value="Comparer" class="btn">
             </form>
         </div>
     </div>
@@ -114,16 +106,9 @@
 
 
 
-
-
-
-
-
-
     <br>
     <br>
     <footer class="footer1">
-
         <a href="page_de_garde.html">Accueil |</a>
         <a href="Présentation.html"> Présentation |</a>
         <a href="Conditiond'utilisationgénérale.html">Conditions Générales d'Utilisation |</a>
