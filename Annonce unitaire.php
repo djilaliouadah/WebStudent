@@ -23,8 +23,8 @@
             <nav class="navbar navbar-expand-lg navbar-light bg-light borderB">
                 <a class="navbar-brand" href="#">Menu</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav mr-auto">
@@ -47,7 +47,6 @@
                 </div>
             </nav>
         </div>
-        <br>
 
     </header>
 
@@ -64,56 +63,65 @@
     </div>
     <br>
     <br>
-    <div class="d-flex justify-content-center">
-        <div class="carre2">
 
+    <div class="d-flex">
+        <div class="d-flex texte flex-column">
+            <div class="carre2">
+                <p>jkgoirjgi efggpiog jirp jgl i rj ipov jipg jsrio pgjovd iovjdifp osgh jufidpjv i ofpdpvhd i </p>
 
+            </div>
+
+            <div class="boutons">
+                <div class="d-flex ml-5 mr-5 justify-content-between">
+                    <div class="precedent">
+                        <a href="">
+                            <img src="img1.png " alt="Précédent" style="width: 50px;" />
+                        </a>
+                    </div>
+                    <div class="fav">
+                <a href="">
+                    <img src="coeur.png " alt="ajoutez aux favoris" style="width: 50px;" />
+                </a>
+            </div>
+                    <div class="suivant">
+                        <a href="">
+                            <img src="img2.png " alt="Suivant" style="width: 50px;" />
+                        </a>
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
-        <br>
-        <form method="post">
-            <br>
-            <div class="bouton1">
-                <input type="submit" value="Postuler" class="btn1">
-            </div>
-            <br>
-            <div class="bouton2">
-                <input type="submit" value="Créer" class="btn2">
-            </div>
-            <br>
-            <div class="bouton3">
-                <input type="submit" value="Modifier" class="btn3">
-            </div>
-            <br>
-            <div class="bouton4">
-                <input type="submit" value="Supprimer" class="btn4">
-            </div>
-            <br>
-            <div class="bouton5">
-                <input type="submit" value="Comparer" class="btn5">
-            </div>
-            <br>
-        </form>
+        <div class="selection">
+            
+            <form method="post">
+                    <input type="submit" value="Postuler" class="btn">
+       
+                <br>
+             
+                    <input type="submit" value="Créer" class="btn">
+         
+                <br>
+          
+                    <input type="submit" value="Modifier" class="btn">
+        
+                <br>
+           
+                    <input type="submit" value="Supprimer" class="btn">
+        
+                <br>
+        
+                    <input type="submit" value="Comparer" class="btn">
+      
+        </div>
     </div>
+    </form>
 
-    <div class="precedent">
-        <a href="">
-            <img src="C:\Users\imain\OneDrive\Images\img1.png " alt="Précédent" style="height:50px;
-	width: 50px;" />
-        </a>
-    </div>
-    <div class="suivant">
-        <a href="">
-            <img src="C:\Users\imain\OneDrive\Images\img2.png " alt="Suivant" style="height:50px;
-	width: 50px;" />
-        </a>
-    </div>
-    <div class="fav">
-        <a href="">
-            <img src="C:\Users\imain\OneDrive\Images\coeur.png " alt="ajoutez aux favoris" style="height:50px;
-	width: 50px;" />
-        </a>
-    </div>
+
+
+
+
+
+
 
 
     <br>
