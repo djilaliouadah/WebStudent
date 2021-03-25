@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
 
     <meta charset="utf-8" />
@@ -9,21 +10,19 @@
     <link rel="stylesheet" href="./css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Happy+Monkey&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="Unitaire.css">
+    <link rel="stylesheet" type="text/css" href="avancement.css">
     <title>Back'Stage</title>
 
 </head>
+
 <body>
-    <FONT face="arial">
         <header class="header" id="top">
             <div class="headerheight">
                 <img src="assets/img/back'stage.PNG" alt="" />
                 <h2>Back'Stage</h2>
                 <nav class="navbar navbar-expand-lg navbar-light bg-light borderB">
                     <a class="navbar-brand" href="#">Menu</a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse"
-                            data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                            aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
 
@@ -51,87 +50,73 @@
             <br>
 
         </header>
-    </FONT>
     <div id="we">
         <a href="page_de_garde.php">Déconnexion</a>
     </div>
 
-
     <div class="search">
         <label for="site-search"></label>
-        <input type="search" id="site-search" name="q" placeholder="Mots-clés"
-               aria-label=" Rechercher">
+        <input type="search" id="site-search" name="q" placeholder="Mots-clés" aria-label=" Rechercher">
 
         <button>Rechercher</button>
     </div>
-    <br>
-    <br>
-    <div class="d-flex justify-content-center">
-        <div class="carre2">
 
+    <div class="contenu">
+        <div class="changement">
+            <div class="d-flex texte flex-column">
+                <div class="carre2">
+                    <img src="perso.png " class="photo" alt="profil" style="width: 105px;" />
+                    <p>jkgoirjgi efggpiog jirp jgl i rj ipov jipg jsrio pgjovd iovjdifp osgh jufidpjfgdg dug joijrug hfduihvuipfdhosugfdso uirh sguoi regonughuihui rhtgu ihturi hrgru rgoui hoig hruoi ghlv i ofpdpvhd i </p>
 
-            
+                </div>
+
+                <div class="boutons">
+                    <div class="d-flex ml-5 mr-5 justify-content-between">
+
+                    </div>
+                </div>
+            </div>
         </div>
-        <br>
-        <br>
-        <form method="post">
-            <br>
-            <br>
-            <br>
-            <div class="bouton2">
-                <input type="submit" value="Créer" class="btn2">
-            </div>
-            <br>
-            <br>
-            <br>
-            <div class="bouton3">
-                <input type="submit" value="Modifier" class="btn3">
-            </div>
-            <br>
-            <br>
-            <br>
-            <div class="bouton4">
-                <input type="submit" value="Supprimer" class="btn4">
-            </div>
-            <br>
-            <br> <br>
+
+        <div class="checketape">
+            <input type="checkbox" id="etape1" name="etape1" checked>
+            <label for="etape1">Etape 1</label>
 
             <br>
-        </form>
-    </div>
 
-    <div class="precedent">
-        <a href="">
-            <img src="C:\Users\imain\OneDrive\Images\img1.png " alt="Précédent" style="height:50px;
-	width: 50px;" />
-        </a>
-    </div>
-    <div class="suivant">
-        <a href="">
-            <img src="C:\Users\imain\OneDrive\Images\img2.png " alt="Suivant" style="height:50px;
-	width: 50px;" />
-        </a>
-    </div>
-    <div class="perso">
-        <a href="">
-            <img src="C:\Users\imain\OneDrive\Images\perso.png " alt="personnage" style="height:100px;
-	width: 100px;" />
-        </a>
+            <input type="checkbox" id="etape2" name="etape2" checked>
+            <label for="etape2">Etape 2</label>
+
+            <br>
+
+            <input type="checkbox" id="etape3" name="etape3" checked>
+            <label for="etape3">Etape 3</label>
+
+            <br>
+
+            <input type="checkbox" id="etape4" name="etape4" checked>
+            <label for="etape4">Etape 4</label>
+
+            <br>
+
+            <input type="checkbox" id="etape5" name="etape5" checked>
+            <label for="etape5">Etape 5</label>
+
+            <br>
+
+            <input type="checkbox" id="etape6" name="etape6" checked>
+            <label for="etape6">Etape 6</label>
+        </div>
     </div>
 
 
-    <br>
-    <br>
     <footer class="footer1">
-        <FONT face="arial">
-            <center>
                 <a href="page_de_garde.html">Accueil |</a>
                 <a href="Présentation.html"> Présentation |</a>
-                <a href="Condition d'utilisation générale.html">Conditions Générales d'Utilisation |</a>
+                <a href="Conditiond'utilisationgénérale.html">Conditions Générales d'Utilisation |</a>
                 <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Contact |</a>
                 <a href="https://fontawesome.com/icons/linkedin-in?style=brands">Réseaux Sociaux </a>
-            </center>
-        </FONT>
+
 
     </footer>
 

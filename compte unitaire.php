@@ -63,11 +63,11 @@
     </div>
     <br>
     <br>
-
     <div class="changement">
         <div class="d-flex texte flex-column">
             <div class="carre2">
-                <p>jkgoirjgi efggpiog jirp jgl i rj ipov jipg jsrio pgjovd iovjdifp osgh jufidpjv i ofpdpvhd i </p>
+                <img src="perso.png " class="photo" alt="profil" style="width: 105px;" />
+                <p>jkgoirjgi efggpiog jirp jgl i rj ipov jipg jsrio pgjovd iovjdifp osgh jufidpjfgdg dug joijrug hfduihvuipfdhosugfdso uirh sguoi regonughuihui rhtgu ihturi hrgru rgoui hoig hruoi ghlv i ofpdpvhd i </p>
 
             </div>
 
@@ -94,9 +94,6 @@
         <div class="selection">
 
             <form method="post">
-                <input type="submit" value="Postuler" class="btn">
-
-                <br>
 
                 <input type="submit" value="Créer" class="btn">
 
@@ -108,13 +105,9 @@
 
                 <input type="submit" value="Supprimer" class="btn">
 
-                <br>
-
-                <input type="submit" value="Comparer" class="btn">
-            </form>
         </div>
     </div>
-
+    </form>
 
 
 
