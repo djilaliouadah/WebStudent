@@ -103,3 +103,50 @@ h1 span {
     position: relative;
 }
 
+@media screen and (max-width: 760px)
+{ 
+    .l1 {
+        width: 200px;
+        height: 3px;
+        background: rgb(16, 59, 124);
+        border-radius: 5px;
+    }
+    .l2 {
+        width: 100px;
+        height: 3px;
+        background: rgb(16, 59, 124);
+        border-radius: 5px;
+        position: relative;
+        top: 20px;
+    }
+    .logo {
+        position: absolute;
+        right: 8%;
+        top: 4%;
+        width: 50px;
+        height: 50px;
+        cursor: pointer;
+        
+    }
+    h1 {
+        text-transform: uppercase;
+        font-size: 45px;
+        color: black;
+        font-family: Abril fatface, sans-serif;
+    }
+
+    *, ::before, ::after {
+        box-sizing: border-box;
+        margin: 1%;
+        padding: 0;
+    }
+    .btn-first { border: 2px solid black;
+        outline: none;
+        background: transparent;
+        font-size: 16px;
+        padding: 20px;
+        width: 300px;
+        color: black;
+        cursor: pointer;
+    }
+}
