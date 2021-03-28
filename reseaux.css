@@ -36,6 +36,7 @@ h1 {
     display: flex;
     justify-content: center;
     margin: 20px;
+	margin-top: 5%;
 }
 
 .plus {
