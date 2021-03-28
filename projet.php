@@ -1,26 +1,3 @@
-<?php
-session_start();
-
-?>
-
-<script>
-    var typeRecupere = <?php echo json_encode($_GET["acces"]); ?>;
-</script>
-
-<?php if (!isset($_GET["acces"])) {
-    header('Location: page_de_garde.php');
-    exit();
-}
-
-if (isset($_GET["err"])) {
-    if ($_GET["err"] == 1) {
-        echo "<script>alert(\"mauvais utilisateur\")</script>";
-    }
-    if ($_GET["err"] == 2) {
-        echo "<script>alert(\"mauvais mot de passe\")</script>";
-    }
-}
-?>
 
 <!DOCTYPE html>
 <html>
