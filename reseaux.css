@@ -1,0 +1,138 @@
+
+.rx
+{
+	background-color: #F9F5F0;
+}
+
+h1
+{
+	margin-left: 620px;
+	
+}
+
+.az
+{
+	margin-left: 750px;
+	margin-top: -378px;
+}
+
+.aze
+{
+	margin-left: 750px;
+	margin-top: 82px;
+}
+
+.azer
+{
+	margin-left: 750px;
+	margin-top: 82px;
+}
+
+.azert
+{
+	margin-left: 750px;
+	margin-top: 88px;
+}
+
+button
+{
+	background-color: white;
+	color: black;
+	font-weight: bolder;
+}
+
+.qs
+{
+	margin-left: 630px;
+	margin-top: 100px;
+}
+
+.qsd
+{
+	margin-left: 630px;
+	margin-top: 65px;
+}
+
+.qsdf
+{
+	margin-left: 630px;
+	margin-top: 65px;
+}
+
+.qsdfg
+{
+	margin-left: 630px;
+	margin-top: 65px;
+}
+
+.footer1
+{
+	margin-left: 970px;
+	margin-top: 100px;
+}
+
+@media all and (max-width: 1024px)
+{
+
+	h1
+	{
+		font-size: 150%;
+		margin-left: 30%;
+	}
+
+    .qs
+    {
+        margin-left: 30%;
+	margin-top: 20%;
+    }
+    .qsd
+{
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.qsdf
+{
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+.qsdfg
+{
+	margin-left: 30%;
+	margin-top: 10%;
+}
+
+
+    .az
+{
+	margin-left: 50%;
+	margin-top: -68%;
+}
+
+.aze
+{
+	margin-left: 50%;
+	margin-top: 13%;
+}
+
+.azer
+{
+	margin-left: 50%;
+	margin-top: 14%;
+}
+
+.azert
+{
+	margin-left: 50%;
+	margin-top: 14%;
+}
+
+  .footer1
+  {
+	margin-left: 9%;
+	margin-top: 10%;
+  }
+
+}
+
