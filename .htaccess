@@ -1,0 +1,4 @@
+AuthName "Page d'administration protégée"
+AuthType Basic
+AuthUserFile "/www/WebStudent/.htpasswd"
+Require valid-user
